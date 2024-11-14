@@ -16,7 +16,7 @@ steps {
 
 dir("jenkins_pipeline") {
 
-bat 'C:/Users/shala/Downloads/apache-maven-3.9.9-bin/apache-maven-3.9.9/bin/mvn clean'
+bat 'C:/Users/shala/Downloads/apache-maven-3.9.9-bin/apache-maven-3.9.9/bin/mvn -X clean'
 
 }
 
@@ -30,7 +30,7 @@ steps {
 
 dir("jenkins_pipeline") {
 
-bat 'C:/Users/shala/Downloads/apache-maven-3.9.9-bin/apache-maven-3.9.9/bin/mvn compile'
+bat 'C:/Users/shala/Downloads/apache-maven-3.9.9-bin/apache-maven-3.9.9/bin/mvn -X compile'
 
 }
 
@@ -44,7 +44,7 @@ steps {
 
 dir("jenkins_pipeline") {
 
-bat 'C:/Users/shala/Downloads/apache-maven-3.9.9-bin/apache-maven-3.9.9/bin/mvn install'
+bat 'C:/Users/shala/Downloads/apache-maven-3.9.9-bin/apache-maven-3.9.9/bin/mvn -X install'
 
 }
 
